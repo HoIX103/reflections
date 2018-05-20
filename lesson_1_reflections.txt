@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The line with change(s) is placed just below the original line, this
+    visually make us easier to compare the difference between two versions.
+     
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In the process of programming, we have to make changes on lines from time
+    to time, maybe to meet the requirements of the functionalities or to make
+    the programme more User-friendly, etc. However, it is usual that when changes
+    were made, the programme cannot functions as we expected and even cannot run!
+    Having easy access to the entire history of a file let us spot the problem
+    faster, because we can review the older version of code which works well,
+    and compares it with the new one which causes malfunction. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The advantage of manually choosing when to create a commit:
+    1. Allow us to commit depends on single logical change instead of specific
+	time period.
+    2. Since each commit is created according to the logical changes, it is
+	easily for us to understand during reviewing.
+
+    The disadvantage of manually choosing when to create a commit:
+    1. The commits maybe too small or too big if we don't think carefully when
+        to make it.
+    2. There is chance that we forgot to commit. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think this is because the Git is a version control system designed for 
+    code writing(programming), which usually changes in one file may affect 
+    the other file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    1. We can type "git log" to check the IDs of the commits.
+    2. Then if we want to compare two commits, we can type "git diff first ID
+       second ID" to see the changes made in the new version of the file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using version control, even we may have made some changes that caused 
+    malfunction of the programme, we could use "checkout" command to go back
+    to the version which work well, and compare it with the fail version to 
+    find out the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I really don't know yet.
